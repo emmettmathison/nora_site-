@@ -1,0 +1,37 @@
+body {
+  height: 100vh;
+}
+
+.main {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+}
+
+.mainRight,
+.mainLeft {
+  height: 100vh;
+}
+
+.mainLeft {
+  display: grid;
+  grid-template-rows: 1fr 8fr;
+}
+
+.navLink {
+  text-decoration: none;
+  color: black;
+}
+
+.nav {
+  padding-left: 0px;
+}
+
+.headerText {
+  padding-left: 10%;
+}
+
+.navLinkList {
+  padding-left: 10%;
+  display: grid;
+  grid-template-rows: 1fr 1fr 1fr;
+}
